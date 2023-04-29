@@ -1,0 +1,120 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.banner {
+  padding-bottom: 30px;
+}
+
+.introduction {
+  margin-bottom: 100px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.overview {
+  line-height: 25px;
+  font-weight: 400;
+}
+
+.year {
+  display: flex;
+}
+
+.picture {
+  width: 50%;
+  flex: 1;
+  padding-bottom: 20px;
+}
+
+.text {
+  width: 50%;
+  flex: 1;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  font-size: larger;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  line-height: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 80px;
+  padding-right: 80px;
+  font-weight: 60;
+}
+
+.tesla {
+  margin-left: 100px;
+  margin-top: 30px;
+}
+
+#zip-2 {
+  background-color: lawngreen;
+  border-radius: 20px;
+  border: 20px solid lawngreen;
+}
+
+#paypal {
+  background-color: aqua;
+  border-radius: 20px;
+  border: 20px solid aqua;
+}
+
+#space-x {
+  background-color: dodgerblue;
+  border-radius: 20px;
+  border: 20px solid dodgerblue;
+}
+
+#tesla {
+  background-color: crimson;
+  border-radius: 20px;
+  border: 20px solid crimson;
+}
+
+#hyperloop {
+  background-color: goldenrod;
+  border-radius: 20px;
+  border: 20px solid goldenrod;
+}
+#neuralink {
+  background-color: grey;
+  border-radius: 20px;
+  border: 20px solid grey;
+}
+
+#boring-company {
+  background-color: midnightblue;
+  border-radius: 20px;
+  border: 20px solid midnightblue;
+  color: lightgreen;
+}
+
+.first {
+  color: lawngreen;
+}
+
+.second {
+  color: aqua;
+}
+
+.third {
+  color: dodgerblue;
+}
+
+.fourth {
+  color: crimson;
+}
+
+.fifth {
+  color: goldenrod;
+}
+
+.sixth {
+  color: grey;
+}
+
+.seventh {
+  color: midnightblue;
+}
