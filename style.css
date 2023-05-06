@@ -9,6 +9,7 @@ body {
 
 .introduction {
   margin-bottom: 100px;
+  padding: 20px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -25,6 +26,9 @@ body {
   width: 50%;
   flex: 1;
   padding-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .text {
