@@ -18,7 +18,14 @@ body {
   font-weight: 400;
 }
 
-.year {
+.year1,
+.year2,
+.year3,
+.year4,
+.year5,
+.year6,
+.year7,
+.year8 {
   display: flex;
 }
 
@@ -121,4 +128,58 @@ body {
 
 .seventh {
   color: midnightblue;
+}
+
+@media screen and (max-width: 1000px) {
+  .text {
+    font-size: 0.85rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+@media screen and (max-width: 650px) {
+  .year1,
+  .year3,
+  .year5,
+  .year7 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: -2rem;
+  }
+
+  .year2,
+  .year4,
+  .year6,
+  .year8 {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .text {
+    width: 85vw;
+    padding-left: 2rem;
+    margin-top: -3rem;
+    padding-right: 2rem;
+    font-size: 1rem;
+  }
+
+  .tesla {
+    margin-left: -0.5rem;
+  }
+
+  .picture1 {
+    height: 40vh;
+    width: 60vw;
+  }
+
+  .x {
+    margin-top: -2rem;
+  }
+
+  #space-x {
+    margin-bottom: 7rem;
+  }
+
 }
